@@ -7,7 +7,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        File arquivo = new File("C:\\projetos\\estudos\\arquivo-txt-planilhas\\src\\br\\com\\utils\\arquivo.txt");
+        File arquivo = new File("C:\\projetos\\estudos\\arquivo-txt-planilhas\\src\\br\\com\\arquivotxt\\arquivo.txt");
 
         if (!arquivo.exists()) {
             arquivo.createNewFile();
