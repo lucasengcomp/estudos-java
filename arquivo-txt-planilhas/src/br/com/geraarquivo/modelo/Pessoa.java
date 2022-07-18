@@ -1,4 +1,4 @@
-package br.com.modelo;
+package br.com.geraarquivo.modelo;
 
 public class Pessoa {
 

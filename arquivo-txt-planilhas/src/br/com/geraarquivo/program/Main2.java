@@ -1,6 +1,7 @@
-package br.com.program;
+package br.com.geraarquivo.program;
 
-import br.com.modelo.Pessoa;
+import br.com.geraarquivo.modelo.Pessoa;
+import br.com.util.Consts;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -9,8 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main2 {
-
-    private static final String CAMINHO = "C:\\projetos\\estudos\\arquivo-txt-planilhas\\src\\br\\com\\arquivotxt\\arquivoPessoa.txt";
 
     public static void main(String[] args) throws IOException {
 
@@ -57,7 +56,7 @@ public class Main2 {
     }
 
     private static File pegaCaminhoArquivo() {
-        return new File(CAMINHO);
+        return new File(Consts.CAMINHO_ARQUIVO_PESSOA);
     }
 
     private static List<Pessoa> adicionaPessoaLista(Pessoa pessoa1, Pessoa pessoa2, Pessoa pessoa3, Pessoa pessoa4) {

@@ -1,4 +1,6 @@
-package br.com.program;
+package br.com.geraarquivo.program;
+
+import br.com.util.Consts;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -7,7 +9,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        File arquivo = new File("C:\\projetos\\estudos\\arquivo-txt-planilhas\\src\\br\\com\\arquivotxt\\arquivo.txt");
+        File arquivo = new File(Consts.CAMINHO_ARQUIVO);
 
         if (!arquivo.exists()) {
             arquivo.createNewFile();
