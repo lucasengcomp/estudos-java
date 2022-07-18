@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/arquivo-txt-planilhas.iml" filepath="$PROJECT_DIR$/arquivo-txt-planilhas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arquivo-txt.iml" filepath="$PROJECT_DIR$/arquivo-txt.iml" />
     </modules>
   </component>
 </project>

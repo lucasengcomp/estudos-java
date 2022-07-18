@@ -1,0 +1,4 @@
+1|Lucas|emailpessoa1@email.com|333332222|19
+2|Ana|emailpessoa2@email.com|333444444|28
+3|Ambrosio|emailpessoa3@email.com|57755555|31
+4|Peter Parker|emailpessoa4@email.com|00112233|55

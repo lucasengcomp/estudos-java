@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="19e57411-7d4b-4a96-90f4-801b36a7998e" name="Changes" comment="Estrutura refatorada.&#10;Adicionado leitura de arquivo txt">
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/arquivo-txt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/out/production/arquivo-txt-planilhas/br/com/geraarquivo/arquivotxt/arquivo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/out/production/arquivo-txt-planilhas/br/com/geraarquivo/arquivotxt/arquivoPessoa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/out/production/arquivo-txt/br/com/geraarquivo/arquivotxt/arquivo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/out/production/arquivo-txt/br/com/geraarquivo/arquivotxt/arquivogerado.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/out/production/arquivo-txt/br/com/geraarquivo/modelo/Pessoa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/out/production/arquivo-txt/br/com/geraarquivo/program/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/out/production/arquivo-txt/br/com/geraarquivo/program/Main2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/out/production/arquivo-txt/br/com/lerarquivo/LerArquivoTxt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/out/production/arquivo-txt/br/com/util/Consts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/src/br/com/geraarquivo/arquivotxt/arquivo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/src/br/com/geraarquivo/arquivotxt/arquivogerado.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/src/br/com/geraarquivo/modelo/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/src/br/com/geraarquivo/program/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/src/br/com/geraarquivo/program/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/src/br/com/lerarquivo/LerArquivoTxt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arquivo-txt/src/br/com/util/Consts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivo-txt-planilhas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arquivo-txt-planilhas/br/com/geraarquivo/arquivotxt/arquivo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arquivo-txt-planilhas/br/com/geraarquivo/arquivotxt/arquivoPessoa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arquivo-txt-planilhas/br/com/geraarquivo/modelo/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arquivo-txt-planilhas/br/com/geraarquivo/program/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arquivo-txt-planilhas/br/com/geraarquivo/program/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arquivo-txt-planilhas/br/com/lerarquivo/LerArquivoTxt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/arquivo-txt-planilhas/br/com/util/Consts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/geraarquivo/arquivotxt/arquivo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/geraarquivo/arquivotxt/arquivogerado.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/geraarquivo/modelo/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/geraarquivo/program/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/geraarquivo/program/Main2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/lerarquivo/LerArquivoTxt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/util/Consts.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2C3l2hrP8GTLx0v4xJxXVYwT1p6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/projetos/estudos/arquivo-txt",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.br.com.geraarquivo.program.Main2">
+    <configuration name="ApachePoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.planilhas.ApachePoi" />
+      <module name="arquivo-txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.planilhas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LerArquivoTxt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.lerarquivo.LerArquivoTxt" />
+      <module name="arquivo-txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.lerarquivo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.com.geraarquivo.program.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.geraarquivo.program.Main" />
+      <module name="arquivo-txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.geraarquivo.program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.com.geraarquivo.program.Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.geraarquivo.program.Main2" />
+      <module name="arquivo-txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.geraarquivo.program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="arquivo-txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="arquivo-txt" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.br.com.geraarquivo.program.Main2" />
+        <item itemvalue="Application.ApachePoi" />
+        <item itemvalue="Application.LerArquivoTxt" />
+        <item itemvalue="Application.br.com.geraarquivo.program.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19e57411-7d4b-4a96-90f4-801b36a7998e" name="Changes" comment="" />
+      <created>1658038943502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658038943502</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Estrutura refatorada.&#10;Adicionado leitura de arquivo txt">
+      <created>1658114090882</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658114090882</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Estrutura refatorada.&#10;Adicionado leitura de arquivo txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Estrutura refatorada.&#10;Adicionado leitura de arquivo txt" />
+  </component>
+</project>
