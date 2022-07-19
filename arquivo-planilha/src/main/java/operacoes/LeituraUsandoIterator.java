@@ -1,18 +1,15 @@
 package operacoes;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
-import util.Util;
+import util.UtilPlanilha;
 
 import java.io.IOException;
 
 public class LeituraUsandoIterator {
 
     public static void main(String[] args) throws IOException {
+        XSSFSheet sheet = UtilPlanilha.declaracaoLibsPlanilhaPadrao(UtilPlanilha.CAMINHO_PLANILHA_PAISES);
 
-        String caminhoArquivo = Util.CAMINHO_PLANILHA_PAISES;
-
-        XSSFSheet sheet = Util.declaracaoLibsPlanilhaPadrao(caminhoArquivo);
-
-        Util.percorreTodaLinhaDaPlanilha(sheet.iterator());
+        UtilPlanilha.percorreTodaLinhaDaPlanilha(sheet.iterator());
     }
 }
