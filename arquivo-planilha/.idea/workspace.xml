@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fa2a5e4-dc75-431a-95f7-aa52f4544eb3" name="Changes" comment="Escrita de dados na planilha">
+      <change afterPath="$PROJECT_DIR$/src/main/java/operacoes/EscritaComLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/operacoes/EscritoComEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/operacoes/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/operacoes/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/UtilEscrita.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/operacoes/Escrita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/operacoes/Escrita.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/operacoes/LeituraUsandoIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/operacoes/LeituraUsandoIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/operacoes/LeituraUsandoLoops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/operacoes/LeituraUsandoLoops.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/planilhas/trabalhadores.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/planilhas/trabalhadores.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/UtilPlanilha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/UtilLeitura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/operacoes/LeituraUsandoIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/operacoes/LeituraUsandoIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/operacoes/LeituraUsandoLoops.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/operacoes/LeituraUsandoLoops.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +66,9 @@
       <recent name="C:\projetos\estudos\arquivo-planilha\src\main\resources\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Escrita">
-    <configuration name="Escrita" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operacoes.Escrita" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="EscritoComEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operacoes.EscritoComEach" />
       <module name="arquivo-planilha" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeituraUsandoIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operacoes.LeituraUsandoIterator" />
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operacoes.Principal" />
       <module name="arquivo-planilha" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeituraUsandoLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operacoes.LeituraUsandoLoops" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operacoes.Solution" />
       <module name="arquivo-planilha" />
       <extension name="coverage">
         <pattern>
@@ -96,19 +106,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="operacoes.Leitura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operacoes.Leitura" />
+    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operacoes.Teste" />
       <module name="arquivo-planilha" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="operacoes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilEscrita" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.UtilEscrita" />
+      <module name="arquivo-planilha" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Escrita" />
-        <item itemvalue="Application.LeituraUsandoIterator" />
-        <item itemvalue="Application.LeituraUsandoLoops" />
-        <item itemvalue="Application.operacoes.Leitura" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Principal" />
+        <item itemvalue="Application.UtilEscrita" />
+        <item itemvalue="Application.Teste" />
+        <item itemvalue="Application.EscritoComEach" />
       </list>
     </recent_temporary>
   </component>

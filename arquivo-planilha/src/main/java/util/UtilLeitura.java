@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.Iterator;
 
-public class UtilPlanilha {
+public class UtilLeitura {
 
     public static final String CAMINHO_PLANILHA_PAISES = "src/main/java/planilhas/paises.xlsx";
 
@@ -32,7 +32,7 @@ public class UtilPlanilha {
 
     private static void percorreColuna(int coluna, XSSFRow row) {
         for (int j = 0; j < coluna; j++) {
-            UtilPlanilha.verificaTipoDoDado(row.getCell(j));
+            UtilLeitura.verificaTipoDoDado(row.getCell(j));
         }
     }
 
@@ -42,7 +42,7 @@ public class UtilPlanilha {
                 System.out.print(cell.getStringCellValue());
                 break;
             case NUMERIC:
-                System.out.print(UtilPlanilha.converteNumeroParaBigDecimal(cell));
+                System.out.print(UtilLeitura.converteNumeroParaBigDecimal(cell));
                 break;
             case BOOLEAN:
                 System.out.print(cell.getBooleanCellValue());
@@ -61,9 +61,9 @@ public class UtilPlanilha {
     private static void percorreTodaCelulaDaPlanilha(Iterator cellIterator) {
         while (cellIterator.hasNext()) {
             XSSFCell cell = (XSSFCell) cellIterator.next();
-            UtilPlanilha.verificaTipoDoDado(cell);
+            UtilLeitura.verificaTipoDoDado(cell);
         }
-        UtilPlanilha.quebraLinha();
+        UtilLeitura.quebraLinha();
     }
 
     private static void imprimeComSeparadorPipe() {
