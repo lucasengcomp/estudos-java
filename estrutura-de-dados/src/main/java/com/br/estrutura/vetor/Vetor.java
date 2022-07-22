@@ -66,6 +66,15 @@ public class Vetor {
         return this.tamanho;
     }
 
+    public int busca(String elemento) {
+        for (int i = 0; i < this.tamanho; i++) {
+            if (this.elementos[i].equals(elemento)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
     public String busca(int posicao) {
         verificaSePosicaoEValida(posicao);
         return this.elementos[posicao];
@@ -75,6 +84,14 @@ public class Vetor {
         if (!(posicao >= 0 && posicao < tamanho)) {
             throw new IllegalArgumentException("Posição não encontrada!");
         }
+    }
+
+    public void remove(int posicao) {
+        verificaSePosicaoEValida(posicao);
+        for (int i = posicao; i < this.tamanho - 1; i++) {
+            this.elementos[i] = this.elementos[i + 1];
+        }
+        this.tamanho--;
     }
 
     @Override
